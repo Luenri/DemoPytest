@@ -1,10 +1,12 @@
 import pytest
+import sys
+sys.path.append("...")
 
-from pruebaPytest.archivos.funciones import suma
+from ...archivos.funciones import *
 
 def testSuma():
 	assert suma(5,3)==8
 
 
-#def testResta():
-#	assert resta(8,9)==-1
+def testResta():
+	assert resta(8,9)==-1
