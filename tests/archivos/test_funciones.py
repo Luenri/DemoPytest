@@ -1,7 +1,4 @@
-import pytest
-import sys
-
-from pruebaPytest.archivos.funciones import *
+from ...archivos.funciones import *
 
 def testSuma():
 	assert suma(5,3)==8
