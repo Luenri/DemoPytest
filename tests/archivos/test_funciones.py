@@ -1,4 +1,4 @@
-from ...archivos.funciones import *
+from funciones import *
 
 def testSuma():
 	assert suma(5,3)==8
