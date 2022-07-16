@@ -1,10 +1,10 @@
 import pytest
 
-from pruebaPytest.archivos.funciones import *
+from pruebaPytest.archivos.funciones import suma
 
 def testSuma():
 	assert suma(5,3)==8
 
 
-def testResta():
-	assert resta(8,9)==-1
+#def testResta():
+#	assert resta(8,9)==-1
