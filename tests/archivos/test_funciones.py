@@ -7,4 +7,4 @@ def testSuma():
 
 
 def testResta():
-	assert resta(8-9)==-1
+	assert resta(8,9)==-1
